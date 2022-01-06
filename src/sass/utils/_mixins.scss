@@ -1,0 +1,34 @@
+@mixin mobile {
+  @media screen and (max-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: map-get($breakpoints , tablet )) {
+    @content;
+  }
+}
+
+@mixin large-font {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+@mixin medium-font {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin small-font {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+@mixin card-elements-margins {
+  margin: 4px 0px;
+}

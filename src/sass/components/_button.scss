@@ -1,0 +1,13 @@
+.button {
+  margin: 0px 8px;
+  padding: 8px;
+  border-radius: $radius;
+  color: white;
+  cursor: pointer;
+  &--cyan {
+    background-color: #65ceef;
+  }
+  &--red {
+    background-color: #f24747;
+  }
+}
